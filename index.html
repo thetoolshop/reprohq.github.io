@@ -18,26 +18,28 @@
                 <img class="h-8 md:h-12 lg:h-16 w-auto" src="logo.svg" alt="Repro">
               </div>
               <div class="mt-10">
-                <div>
-                  <a href="#" class="inline-flex space-x-4">
-                    <span class="rounded bg-blue-50 px-2.5 py-1 text-xs font-semibold text-blue-500 tracking-wide uppercase">
-                      Launching Q4 2021
-                    </span>
-                  </a>
-                </div>
                 <div class="mt-6 sm:max-w-xl">
                   <h1 class="text-3xl sm:text-5xl font-extrabold text-gray-800 tracking-tight">
                     Reproduce and<br />
                     fix bugs, fast.
                   </h1>
                   <p class="mt-6 text-lg sm:text-xl text-gray-500">
-                    Bug reporting that captures every detail. Full session recordings with DOM changes, user interactions, network requests and more.<br /><br />
+                    The time-travel web inspector for replayable, shareable bug reports.
                     Built for developers and QA testers.
                   </p>
                 </div>
-                <div class="mt-12 sm:max-w-lg sm:w-full sm:flex">
-                  <div class="mt-4 sm:mt-0">
-                    <a target="_blank" href="https://tripetto.app/run/I3VR9VCJOS" class="block w-full text-center rounded-md border border-transparent px-5 py-3 bg-blue-500 text-base font-medium text-white shadow hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 sm:px-10">Sign up for early access</a>
+                <div class="mt-6 sm:max-w-lg sm:w-full sm:flex items-center">
+                  <a target="_blank" href="#" class="block text-center rounded-md border border-transparent px-5 py-3 bg-blue-500 text-base font-medium text-white shadow hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+                    Download Now
+                  </a>
+
+                  <div class="mx-4 self-stretch w-px bg-gray-300"></div>
+
+                  <div class="mt-4 sm:mt-0 -ml-6">
+                    <a target="_blank" href="#">
+                      <img src="./chrome-webstore-badge.png" alt="Available in the Chrome Web Store" />
+                    </a>
+                    <!-- <a target="_blank" href="https://tripetto.app/run/I3VR9VCJOS" class="block w-full text-center rounded-md border border-transparent px-5 py-3 bg-blue-500 text-base font-medium text-white shadow hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 sm:px-10">Sign up for early access</a> -->
                   </div>
                 </div>
               </div>
@@ -47,14 +49,14 @@
           <div class="sm:mx-auto sm:max-w-3xl sm:px-6">
             <div class="py-12 sm:relative sm:mt-12 sm:py-16 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
               <div class="relative pl-4 -mr-20 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full lg:pl-12">
-                <img class="w-full lg:h-full lg:w-auto lg:max-w-none shadow-xl ring-1 ring-black ring-opacity-5" src="replay.png" alt="">
+                <img class="w-full lg:h-full lg:w-auto lg:max-w-none shadow-xl ring-1 ring-black ring-opacity-5" src="./repro-embedded-screenshot.png" alt="Embedded developer tools">
               </div>
             </div>
           </div>
         </div>
 
         <!-- This example requires Tailwind CSS v2.0+ -->
-        <div class="relative bg-blue-50 pt-16 pb-32 overflow-hidden">
+        <div class="relative bg-blue-50 py-16 overflow-hidden">
           <div class="relative">
             <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
               <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
@@ -71,26 +73,12 @@
                       For Developers
                     </h2>
                     <p class="mt-4 text-lg text-gray-500">
-                      Reproduce bugs effortlessly with a powerful session replay tool and web inspector. Share feedback during development and code review, and fix bugs quickly without the back-and-forth.
+                      Reproduce bugs effortlessly with a time-travel web inspector. Share recordings for faster collaboration during development.
                     </p>
-                    <div class="mt-6 hidden lg:block">
-                      <a target="_blank" href="https://tripetto.app/run/I3VR9VCJOS" class="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700">
-                        Sign up for early access
-                      </a>
-                    </div>
                   </div>
                 </div>
               </div>
-              <div class="mt-12 sm:mt-16 lg:mt-0 hidden lg:block">
-                <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-                  <img class="w-full lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="tools.png" alt="Customer profile user interface">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="mt-24">
-            <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-              <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-20 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
+              <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
                 <div>
                   <div>
                     <span class="h-12 w-12 rounded-md flex items-center justify-center bg-blue-600">
@@ -104,19 +92,9 @@
                       For Testers and QA Engineers
                     </h2>
                     <p class="mt-4 text-lg text-gray-500">
-                      Create comprehensive bug reports with a single click. Save time on manual testing and empower your team to fix bugs faster.
+                      Create replayable bug reports with a single click. Save time on manual testing and empower your team to fix bugs faster.
                     </p>
-                    <div class="mt-6 hidden lg:block">
-                      <a target="_blank" href="https://tripetto.app/run/I3VR9VCJOS" class="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700">
-                        Sign up for early access
-                      </a>
-                    </div>
                   </div>
-                </div>
-              </div>
-              <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1 hidden lg:block">
-                <div class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-                  <img class="w-full lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="record.png" alt="Recording">
                 </div>
               </div>
             </div>
@@ -124,32 +102,12 @@
         </div>
 
         <!-- This example requires Tailwind CSS v2.0+ -->
-        <div class="bg-blue-700">
+        <div class="bg-blue-700 bg-gradient-to-br from-blue-600 to-blue-900">
           <div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
             <h2 class="text-3xl font-extrabold text-white tracking-tight">
-              The ultimate bug report
+              Rewind, Replay, Inspect
             </h2>
-            <p class="mt-4 max-w-3xl text-lg text-blue-200">
-              All the tools you need to effortlessly reproduce and fix bugs.
-            </p>
             <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
-              <div>
-                <div>
-                  <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
-                  </span>
-                </div>
-                <div class="mt-6">
-                  <h3 class="text-lg font-medium text-white">Timeline of events</h3>
-                  <p class="mt-2 text-base text-blue-200">
-                    Interactive and filterable log of all DOM changes, network requests, console messages and more.
-                  </p>
-                </div>
-              </div>
-
               <div>
                 <div>
                   <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
@@ -160,41 +118,9 @@
                   </span>
                 </div>
                 <div class="mt-6">
-                  <h3 class="text-lg font-medium text-white">Playback controls</h3>
+                  <h3 class="text-lg font-medium text-white">Instant playback</h3>
                   <p class="mt-2 text-base text-blue-200">
-                    Play, pause and rewind, or step through changes one-by-one.
-                  </p>
-                </div>
-              </div>
-
-              <div>
-                <div>
-                  <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                  </span>
-                </div>
-                <div class="mt-6">
-                  <h3 class="text-lg font-medium text-white">Smart breakpoints</h3>
-                  <p class="mt-2 text-base text-blue-200">
-                    Follow changes by element or selector. Pause on any change to an element or its children.
-                  </p>
-                </div>
-              </div>
-
-              <div>
-                <div>
-                  <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
-                    </svg>
-                  </span>
-                </div>
-                <div class="mt-6">
-                  <h3 class="text-lg font-medium text-white">Network recording</h3>
-                  <p class="mt-2 text-base text-blue-200">
-                    Play back captured requests and responses to diagnose failure and loading states.
+                    Play, pause and rewind changes on demand, without leaving the page.
                   </p>
                 </div>
               </div>
@@ -208,9 +134,70 @@
                   </span>
                 </div>
                 <div class="mt-6">
-                  <h3 class="text-lg font-medium text-white">Elements tree</h3>
+                  <h3 class="text-lg font-medium text-white">Elements &amp; styling</h3>
                   <p class="mt-2 text-base text-blue-200">
-                    View the DOM before and after changes, or modify styles and attributes to see the effect over time.
+                    View the DOM before and after changes, to see the effect over time.
+                  </p>
+                </div>
+              </div>
+
+              <div>
+                <div>
+                  <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                    </svg>
+                  </span>
+                </div>
+                <div class="mt-6">
+                  <h3 class="text-lg font-medium text-white">Always-on recording</h3>
+                  <p class="mt-2 text-base text-blue-200">
+                    Session recording auto-starts in your active tab and playback is ready as soon as you need it.
+                  </p>
+                </div>
+              </div>
+
+              <div>
+                <div>
+                  <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                    </svg>
+                  </span>
+                </div>
+                <div class="mt-6">
+                  <h3 class="text-lg font-medium text-white">Privacy &amp; security</h3>
+                  <p class="mt-2 text-base text-blue-200">
+                    Nothing leaves your browser until you share. And when you share, everything is end-to-end encrypted.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="my-12 bg-blue-600 h-px"></div>
+
+            <h2 class="text-2xl font-bold text-white tracking-tight">
+              And that is just the start...
+            </h2>
+
+            <p class="text-base text-blue-200 mt-2">
+              We're building the tools to supercharge your debugging experience.
+            </p>
+
+            <div class="grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-12 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
+              <div>
+                <div>
+                  <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                    </svg>
+                  </span>
+                </div>
+                <div class="mt-6">
+                  <h3 class="text-lg font-medium text-white">Network recording</h3>
+                  <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800"> Coming soon</span>
+                  <p class="mt-2 text-base text-blue-200">
+                    Play back captured requests and responses to diagnose failure and loading states.
                   </p>
                 </div>
               </div>
@@ -225,8 +212,26 @@
                 </div>
                 <div class="mt-6">
                   <h3 class="text-lg font-medium text-white">Console messages</h3>
+                  <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800"> Coming soon</span>
                   <p class="mt-2 text-base text-blue-200">
                     Replay logs, warnings and errors, with stack traces to understand when and why errors are thrown.
+                  </p>
+                </div>
+              </div>
+
+              <div>
+                <div>
+                  <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                  </span>
+                </div>
+                <div class="mt-6">
+                  <h3 class="text-lg font-medium text-white">Performance tracing</h3>
+                  <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800"> Coming soon</span>
+                  <p class="mt-2 text-base text-blue-200">
+                    Find rendering issues and slowdowns in your web apps. Capture frame rates, layout shifts and other inefficiencies.
                   </p>
                 </div>
               </div>
@@ -241,8 +246,9 @@
                 </div>
                 <div class="mt-6">
                   <h3 class="text-lg font-medium text-white">Commenting & discussion</h3>
+                  <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800"> Coming soon</span>
                   <p class="mt-2 text-base text-blue-200">
-                    Collaborate in context; add comments to any event and keep the whole team aligned.
+                    Collaborate in context; add comments to a recording and keep the whole team aligned.
                   </p>
                 </div>
               </div>
@@ -250,15 +256,20 @@
           </div>
         </div>
 
-        <!-- This example requires Tailwind CSS v2.0+ -->
-        <div class="bg-blue-900">
-          <div class="max-w-2xl mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
-            <a target="_blank" href="https://tripetto.app/run/I3VR9VCJOS" class="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50 sm:w-auto">
-              Sign up for early access
+        <div class="py-12 w-full flex items-center justify-center">
+          <a target="_blank" href="#" class="block text-center rounded-md border border-transparent px-5 py-3 bg-blue-500 text-base font-medium text-white shadow hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+            Download Now
+          </a>
+
+          <div class="mx-4 self-stretch w-px bg-gray-300"></div>
+
+          <div class="mt-4 sm:mt-0 -ml-6">
+            <a target="_blank" href="#">
+              <img src="./chrome-webstore-badge.png" alt="Available in the Chrome Web Store" />
             </a>
+            <!-- <a target="_blank" href="https://tripetto.app/run/I3VR9VCJOS" class="block w-full text-center rounded-md border border-transparent px-5 py-3 bg-blue-500 text-base font-medium text-white shadow hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 sm:px-10">Sign up for early access</a> -->
           </div>
         </div>
-
       </main>
     </div>
   </body>
