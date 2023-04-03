@@ -13,11 +13,11 @@
           <a href="https://app.repro.dev/account/login" class="px-4 py-2 text-sm text-blue-800 font-semibold bg-transparent hover:bg-blue-200 rounded transition-colors">Sign In</a>
         </div>
 
-        <div class="py-48 mx-auto max-w-7xl text-center">
+        <div class="py-48 mx-auto max-w-md sm:max-w-7xl text-center">
           <img src="repro-logo-full.png" alt="Repro logo" class="mx-auto" />
 
-          <div class="mt-8 mx-auto max-w-2xl text-center">
-            <h1 class="inline bg-gradient-to-r from-blue-800 via-blue-900 to-blue-700 bg-clip-text text-transparent font-bold tracking-tight text-3xl sm:text-5xl">Reproduce and fix bugs, fast.</h1>
+          <div class="mt-8 mx-auto max-w-xs sm:max-w-2xl text-center">
+            <h1 class="inline bg-gradient-to-r from-blue-800 via-blue-900 to-blue-700 bg-clip-text text-transparent font-bold tracking-tight text-3xl sm:text-5xl">Reproduce and <br class="block sm:hidden" /> fix bugs, fast.</h1>
 
             <p class="mt-4 text-gray-700">
               The open-source developer tool for replayable bug reports. <br />
@@ -30,20 +30,24 @@
                 Download for Chrome
               </a>
 
-              <a href="https://github.com/reprohq/repro" target="_blank" class="flex items-center gap-2 h-16 px-4 bg-gradient-to-b from-slate-700 to-slate-800 hover:from-slate-600 hover:to-slate-700 text-white rounded-md ring-4 ring-slate-300 transition-colors">
+              <a href="https://github.com/reprohq/repro" target="_blank" class="hidden lg:flex items-center gap-2 h-16 px-4 bg-gradient-to-b from-slate-700 to-slate-800 hover:from-slate-600 hover:to-slate-700 text-white rounded-md ring-4 ring-slate-300 transition-colors">
                 <img src="github-logo.svg" class="h-8" />
                 View on GitHub
               </a>
             </div>
+
+            <a href="https://github.com/reprohq/repro" target="_blank" class="mt-4 block lg:hidden text-xs underline">
+              View on Github
+            </a>
           </div>
         </div>
       </div>
 
-      <div class="flex flex-col justify-center items-center py-8">
+      <div class="hidden md:flex flex-col justify-center items-center py-8">
         <img src="repro-promo-image.png" alt="Repro screenshot" class="mt-8" />
       </div>
 
-      <div class="-mt-72 pt-72 pb-24 bg-blue-50 border-t-8 border-solid border-blue-100">
+      <div class="-mt-72 pt-72 pb-24 bg-blue-50 border-t-8 border-none md:border-solid border-blue-100">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div class="my-12 bg-blue-100 h-px"></div>
 
